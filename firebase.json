@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/abs-adesso",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
